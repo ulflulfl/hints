@@ -98,8 +98,8 @@ I don't have real experience with these special tapes so far.
 As mentioned above, the normal laminated tapes may not stick well with small diameter cables. Brother suggests using these flexible tapes for cable flags or wraps.
 
 Available colors (in 6-36 mm widths):
-<span style="color:black; background-color:white">black on white (2x1)</span>
-<span style="color:black; background-color:yellow">black on yellow (6x1)</span>
+* <span style="color:black; background-color:white">black on white (2x1)</span>
+* <span style="color:black; background-color:yellow">black on yellow (6x1)</span>
 
 In the PT-E550W manual you'll find hints that the cable diameter should not be smaller than 3 mm.
 
@@ -122,8 +122,8 @@ Heat shrink tubes are (in principle) nice for cable markings and are available f
 | HSe-x51E | 21,0 mm | 4,2-13,5 mm | 3:1 |
 
 Available colors:
-<span style="color:black; background-color:white">black on white (2x1)</span>
-<span style="color:black; background-color:yellow">black on yellow (6x1)</span>
+* <span style="color:black; background-color:white">black on white (2x1)</span>
+* <span style="color:black; background-color:yellow">black on yellow (6x1)</span>
 
 As the tube is only 1.5 m long and a genuine Brother cassette cost more than 20€, this can become a bit expensive for hobbyists use. However, cheaper "compatible with HSe..." tubes are available (but it seems only with the 2:1 shrink rate).
 
@@ -131,7 +131,7 @@ Most P-Touch tapes are laminated with a transparent foil on top for (scratch) re
 
 #### HSe-xxx(E) Printer Compatibility
 
-According to Brother, the following printer should work with HSe-xxx tubes: PT-D800W, PT-E300, PT-E300VP, PT-E550W, PT-E550WVP, PT-P700, PT-P750W, PT-P900W, PT-P900Wc, PT-P950NW. I've taken these infos from the Brother "TZe-Tape Comparison Chart" pdf (2017) and the german "Brother P-touch Pro Tapes" pdf (2023).
+According to Brother, the following printers should work with HSe-xxx tubes: PT-D800W, PT-E300, PT-E300VP, PT-E550W, PT-E550WVP, PT-P700, PT-P750W, PT-P900W, PT-P900Wc, PT-P950NW. I've taken these infos from the Brother "TZe-Tape Comparison Chart" pdf (2017) and the german "Brother P-touch Pro Tapes" pdf (2023).
 
 The "Brother Label Tape Hack" can be used to print HSe-xxx tubes with an otherwise "unwilling" PT-P300BT: https://hackaday.io/project/190126-brother-label-tape-hack
 
@@ -147,6 +147,8 @@ https://www.brother.com.sg/en/contents/labeller-for-electrician indicates:
 * for PT-E800T, PT-E850TKW, PT-P900W, and PT-P950NW only
 
 Available colors:
-<span style="color:black; background-color:white">FLe-2511: black on white</span>
-<span style="color:black; background-color:yellow">FLe-6511: black on yellow<span>
-<span style="color:black; background-color:green">FLe-7511: black on green<span>
+> <span style="color:black; background-color:white">FLe-2511: black on white</span>
+
+> <span style="color:black; background-color:yellow">FLe-6511: black on yellow<span>
+
+> <span style="color:black; background-color:green">FLe-7511: black on green<span>
