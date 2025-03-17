@@ -147,8 +147,6 @@ https://www.brother.com.sg/en/contents/labeller-for-electrician indicates:
 * for PT-E800T, PT-E850TKW, PT-P900W, and PT-P950NW only
 
 Available colors:
-> <span style="color:black; background-color:white">FLe-2511: black on white</span>
-
-> <span style="color:black; background-color:yellow">FLe-6511: black on yellow<span>
-
-> <span style="color:black; background-color:green">FLe-7511: black on green<span>
+* <span style="color:black; background-color:white">FLe-2511: black on white</span>
+* <span style="color:black; background-color:yellow">FLe-6511: black on yellow<span>
+* <span style="color:black; background-color:green">FLe-7511: black on green<span>
