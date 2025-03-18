@@ -4,7 +4,7 @@ Various infos about some of the more affordable label printers of the Brother P-
 
 I've started with a cheap handheld printer and gained experience over the years with the PT printers. I haven't tried other Brother label printers (QL, TD, ...) or label printers from other brands.
 
-**All in all, having a label printer to mark boxes and many other stuff is invaluable for me to keep things in order. A simple printer for 12 mm "black on white" tape is enough for that. For me, everything else is just nice to have - but why not have some fun with it ...**
+> **All in all, having a label printer to mark boxes and many other stuff is invaluable for me to keep things in order. A simple printer for 12 mm "black on white" tape is enough for that. For me, everything else is just nice to have - but why not have some fun with it ...**
 
 *Some remarks: I've collected the infos on this page in 2025. They may be wrong, incomplete or get outdated over time. Please raise a GitHub issue for corrections. The printed labels were created using "TZe compatible" tapes, the results with genuine Brother tapes may be different.*
 
@@ -56,29 +56,6 @@ Most "normal" TZe tapes can be printed with any printer, special tapes (HGe, HSe
 
 ---
 
-## History of TZe (new) vs. TZ (old) System
-
-As of 2025, only TZe (HSe, ...) tapes and printers are sold. The older TZ system is out of production for many years now.
-
-In the past, the TZ system of tape cassettes and printers were used. Sometime after 2010 (only a rough guess) Brother changed the tape cassettes to the new TZe system, which can also be used with the older TZ printers.
-
-![Old TZ tape mark](./images/tz_tape.jpg)
-*Old TZ tape mark on a PT-1000 printer purchased 2016*
-
-Sometime after 2016 (only  a rough guess) the printers also changed to the new TZe system, which cannot print on the older TZ tapes (the cassettes doesn't even physically fit into the printer).
-
-![TZe Tape mark](./images/tze_tape.jpg)
-*"New" TZe tape mark on a PT-E110 printer purchased 2022*
-
-Compatibility of TZe/TZ tapes and printers:
-
-| | TZe Printer | TZ Printer |
-| --- | --- | --- |
-| **TZe Tape** | ok | ok |
-| **TZ Tape** | - | ok |
-
----
-
 ## My Printers
 
 | Model | Power | Display | Keyboard | Dimensions | Weight* | Cutter | Tapes | Interfaces | Price | Purchased |
@@ -113,16 +90,19 @@ After many years of usage, the TCM printer mentioned above showed its age and th
 * Support page (german): https://www.brother.de/support/pt1000/
 * Tapes: 6-12 mm TZe (new) & TZ (old) tapes
 * Cutter: Manual (TC-5, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
 * Computer interface: None
 
-Experiences:
+:+1: Pros:
 
 * works well, no quality problems even after years of moderate use
 * 12 mm width suitable for most use cases
+* batteries last long
+
+:-1: Cons:
+
 * limited for printing cable markers
 * not suitable for graphics: QR-codes, Barcodes, ...
-* batteries last long
 
 TODO: As this is an older TZ printer, check if it can print special "PRO" tapes that seems to be limited with the newer TZe printers.
 
@@ -135,6 +115,8 @@ The PT-E110 is specialized for electricians use, e.g. with special modes to prin
 
 I've purchased the PT-E110 (on a special offer) especially to print cable markers, which works nicely.
 
+More about electricians use at: [P-Touch Cable Markers](./P-Touch-Cable-Markers.md)
+
 Variants:
 
 * PT-E110
@@ -146,21 +128,27 @@ General properties:
 * Support page (german): https://www.brother.de/support/pt-e110
 * Tapes: 3,5-12 mm TZe & HGe ("High-Grade") tapes (will not work with the much older TZ tapes)
 * Cutter: Manual (TC-4, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
 * Computer interface: None
 
-Experiences:
+:+1: Pros:
 
 * works well
 * "cable flag mode" is very useful for cable markers
-* "cable wrap mode" isn't useful for me
-* I'm not using the special "electrical and warning symbols" at all
-* HSe heat shrink tubes NOT supported
-* beside the "electricians specials", similar to the PT-1000
-* TODO: Try out the "faceplate mode"
-* TODO: Check if "HSe compatible" tapes can be printed
+* beside the "electricians specials", somewhat similar to the PT-1000
 
-More about electricians use at: [P-Touch Cable Markers](./P-Touch-Cable-Markers.md)
+Neutral:
+
+* I'm not using the "cable wrap mode" or "electrical and warning symbols" at all
+
+:-1: Cons:
+
+* HSe heat shrink tubes NOT supported
+
+TODO:
+
+* Try out the "faceplate mode"
+* Check if "HSe compatible" heat shrink tubes can be printed
 
 ### PT-P300BT "P-Touch Cube"
 
@@ -178,7 +166,7 @@ General properties:
 * Support page (german): https://www.brother.de/support/ptp300bt
 * Tapes: 3,5-12 mm TZe tapes (will not work with the much older TZ tapes)
 * Cutter: Manual (TC-4, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
 
 Computer connection:
 
@@ -190,11 +178,11 @@ Computer connection:
 * Mobile Apps:
   * Android: Brother iPrint&Label, P-touch Design&Print 2
   * iOS: Brother iPrint&Label, P-touch Design&Print 2
-* Protocol description: not available
+* USB Protocol description: not available
 
 Experiences:
 
-* newly purchased in 2025, so I have no "long term" experience
+* Purchased in 2025, so I have no "long term" experience
 * TODO: Add experiences
 
 ### PT-P710BT "P-Touch Cube Plus"
@@ -230,15 +218,19 @@ Computer connection:
   * iOS: Brother iPrint&Label, P-touch Design&Print 2
 * USB protocol description (english): https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=p710bteus "Raster Command Reference"
 
-Experiences:
+:+1: Pros:
 
 * works well
 * automatic cutter is nice, but not an absolute must have
 * printing small graphics (e.g. QR-codes, Barcodes, ...) is nice to have for me
 * 24 mm wide tapes can be helpful from time to time (e.g. for graphics), 12 mm is enough in almost all cases
+
+:-1: Cons:
+
 * when standing upright, the printer is a bit wobbly
 * The micro USB port is fiddly (as usual), USB-C would be nice in 2025
-* newly purchased in 2025, so I have no "long term" experience
+
+Purchased in 2025, so I have no "long term" experience
 
 ---
 
@@ -251,6 +243,31 @@ After so many years of usage, the tape cutter of the TCM is becoming blunt and c
 The typical "problem areas" of such electronics after many years - display and rubber keyboard - still work just fine.
 
 The 6xAAA batteries last quite a long time for me. With moderate usage I've changed the batteries maybe 2 or 3 times in all these years.
+
+> :+1: All in all, I'm pleased with the P-Touch experience
+
+---
+
+## History of TZe (new) vs. TZ (old) System
+
+As of 2025, only TZe (HSe, ...) tapes and printers are sold. The older TZ system is out of production for many years now.
+
+In the past, the TZ system of tape cassettes and printers were used. Sometime after 2010 (only a rough guess) Brother changed the tape cassettes to the new TZe system, which can also be used with the older TZ printers.
+
+![Old TZ tape mark](./images/tz_tape.jpg)
+*Old TZ tape mark on a PT-1000 printer purchased 2016*
+
+Sometime after 2016 (only  a rough guess) the printers also changed to the new TZe system, which cannot print on the older TZ tapes (the cassettes doesn't even physically fit into the printer).
+
+![TZe Tape mark](./images/tze_tape.jpg)
+*"New" TZe tape mark on a PT-E110 printer purchased 2022*
+
+Compatibility of TZe/TZ tapes and printers:
+
+| | TZe Printer | TZ Printer |
+| --- | --- | --- |
+| **TZe Tape** | ok | ok |
+| **TZ Tape** | - | ok |
 
 ---
 
@@ -344,6 +361,8 @@ Brother parts for my printers:
 | TC-4 | Manual tape cutter | E110, PT-P300BT | from 5 € |
 | PA-BT-005 | Li-Ion battery | PT-P710BT | from 35 € |
 | AD-24ES | Mains Power adapter 9V 1.6A | TCM 232288, PT-1000, PT-E110, PT-P300BT | from 13 € |
+
+TODO: Which barrel connection does the AD-24ES actually use? I guess 5.5/2.1 or 5.5/2.5 mm ...
 
 ![TC-5 manual tape cutter parts](./images/tc5_parts.jpg)
 *TC-5 manual tape cutter parts*

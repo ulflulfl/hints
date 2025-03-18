@@ -14,6 +14,8 @@ For the above cables, normal 12 mm tape (TZe-231 "compatible") was used with a P
 
 Hint: In a professional environment, you may need to use certified labels (ULN, ANSI/TIA-606C, or other organizations) for such markings.
 
+---
+
 ## Keep it simple?
 
 You can just print a label on normal tape, leave the usually cut off "prefix tape", wrap it around the cable as in the image above and you're done.
@@ -27,19 +29,32 @@ Well, this has some drawbacks:
 2. the print is only on one side
 3. the normal tape often won't stick well with thin cables
 
-The first two disadvantages shows up when searching for a specific cable, as you need to twist all the cables until you find the right one. To circumvent this, Brother provides special cable marking modes with the "E-series" of printers.
+The first two disadvantages shows up when searching for a specific cable, as you need to twist all the cables until you find the right one. To circumvent this, you can print special label designs for cable marking modes with the "E-series" of printers or the "P-Touch Editor" software.
 
 After a while, especially on thin cables, the normal laminated tape often will not stick well with the cable. To circumvent this, Brother sells special tapes for cable markings.
 
 ---
 
-## "E-series" Printers or P-Touch Editor
+## Electricians Label Designs
 
+You can print electricians labels like cable flags and cable wraps (see below) with the E-Series printers or with printers over USB/Bluetooth.
+
+> :warning: **Beware:** Cheap handheld printers won't provide such electricians label designs.
+
+### Printers with USB or Bluetooth
+
+You can print these electricians labels with the Windows, macOS, Android and iOS software.
+
+On Windows / macOS with the "P-Touch Editor" software for printers with a USB interface.
+
+> :bulb: **Tip:** Set the "P-Touch Editor" to "Electrical/Network" mode (File > Option... > Mode) to get the full range of electricians label designs.
+
+On Android / iOS with the "iPrint&Label" software using the "cable" designs for printers with a Bluetooth interface. The "Design&Print 2" app doesn't provide such an option.
+
+### E-Series Printers
 The E-series printers (PT-E100, PT-E110, PT-E300, PT-E550W, PT-E800T and PT-E850TKW) have special modes to print cable wraps and cable flags. You can also print special electrical and warning symbols. The PT-E300 and higher can print HSe heat shrink tubes, the PT-E550W and higher have a computer interface and further options.
 
 A list of E-series printers to compare can be found at: https://www.brother.com.sg/en/labellers/all-labellers?fr=electrical_automation
-
-You can print these special electricians labels also with the Windows (and possibly macOS) "P-Touch Editor" software, especially in the "Electrical/Network" mode!
 
 ![Brother PT-E110](./images/PT-E110.jpg)
 *Brother PT-E110 in "cable flag" mode*
@@ -73,6 +88,12 @@ May not work well with:
 * longer texts on thin tapes
 
 When using 12 mm tape for cable wraps, the characters are getting pretty small. The "P-Touch Editor" software suggests 18 mm for cable wraps.
+
+### Other Electricians Designs
+
+The E110 printer only provides cable flags and wraps. With higher E-Series printers or when using the software solutions, there are more electricians designs available, e.g. for fuse boxes or connector blocks.
+
+However, I haven't tried this myself.
 
 ---
 

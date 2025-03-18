@@ -19,11 +19,15 @@ The Brother website contains infos about the various tapes. Some examples I've f
 
 ---
 
+## Tape Cassette
+
 ![Chinesium knock-off: "Compatible with Brother TZe-231" 12 mm black on white laminated tape cassette](./images/cassette_front.jpg)
 *Chinesium knock-off: "Compatible with Brother TZe-231" tape cassette (12 mm black on white laminated tape)*
 
 !["Compatible with Brother TZe-..." 6, 12 and 24 mm black on white laminated tape cassettes](./images/tapes_packed.jpg)
 *"Compatible with Brother TZe-...": 6, 12 and 24 mm black on white laminated tape cassettes*
+
+---
 
 ## Print Examples
 
@@ -60,30 +64,6 @@ The QR-Code blurriness is caused by my camera, the label is pin sharp and works 
 
 ---
 
-## Tape Experiences
-
-### TZe-231 "12 mm Black on White" Tape - my personal default
-The tape I typically use is the "TZe-231 compatible", a standard 12 mm laminated tape "black on white".
-
-The "black on white" is "easy to locate", has a good contrast and 12 mm can be read from a moderate distance.
-
-### TZe-211 "6 mm Black on White" Tape
-
-I need very small labels only once in a while, so it's easier for me to print double line on 12 mm tape and use scissors than to search for and change the tape in the printer. Only in the very rare case that I need more than a few small labels, I'll switch to 6 mm tape.
-
-### TZe-251 "24 mm Black on White" Tape
-
-I'm using the 24 mm tape if the label needs to be seen from a distance, or graphics like QR-codes are used (QR-codes on 12 mm are a bit tiny). In effect the 24 mm tape is only used from time to time and - at least for me - not a "must have".
-
-### TZe-131 "12 mm Black on Transparent" Tape
-I've tried the "black on transparent" tape, but depending on the background color to stick it on, the label is much harder to locate and read compared to "black on white" tape. Might be helpful for usages where the label should be "less obvious", but I'm practically not using it.
-
-### Other
-
-TODO: Test heat shrink tube, strong adhesive, flexible, seal, colors, ...
-
----
-
 ## Pricing and Alternatives
 A Brother genuine TZe-231 tape starts at 10 €, special tapes can cost 25 € or more. If you use labels a lot or need a higher variety of different tapes, this can quickly become a bit expensive for hobbyists use.
 
@@ -93,7 +73,7 @@ While the Brother genuine tape uses the model number TZe-231, the knock-offs usu
 
 I'm using the "TZe-231 compatibles" for quite a while and quite a lot:
 
-Pros:
+:+1: Pros:
 
 * print looks very good
 * wear resistant
@@ -102,7 +82,7 @@ Pros:
 * can usually be removed without residue
 * cheap
 
-Cons:
+:-1: Cons:
 
 * very rarely: Peeling off the "back foil" can be a bit harder than normal -> but really no big deal
 * may leave some residue on the surface if it was sticked on many years ago
@@ -110,6 +90,30 @@ Cons:
 I use my labels for "home and office", so no harsh daylight/UV, temperatures, chemicals and such. As I'm only using the compatible tapes (which works well for me), I can't tell if the genuine Brother tapes are better or maybe worse (which I wouldn't expect) ...
 
 However, the following web page indicates that you may be unlucky with "knock-offs": https://softsolder.com/2020/04/19/cheapnified-brother-tz-label-cartridge/
+
+---
+
+## Tape Experiences
+
+My experiences with the different tapes, your mileage may vary ...
+
+### :+1: TZe-231 "12 mm Black on White" Tape - my personal default
+The tape I typically use is the "TZe-231 compatible", a standard 12 mm laminated tape "black on white". It's "easy to locate", has a good contrast and 12 mm can be read from a moderate distance.
+
+### :+1: TZe-251 "24 mm Black on White" Tape
+
+I'm using the 24 mm tape if the label needs to be seen from a distance, or graphics like QR-codes are used (QR-codes on 12 mm are a bit tiny). In effect the 24 mm tape is only used from time to time and - at least for me - nice to have, but not a "must have".
+
+### :question: TZe-211 "6 mm Black on White" Tape
+
+I need very small labels only once in a while, so it's easier for me to print on 12 mm tape than to search for the 6 mm tape and change it in the printer. To get a small label, I'll use a 12 mm double line print, only use the first line of it and cut it out with scissors. Only in the very rare case that I need more than a few small labels, I can switch to 6 mm tape. Can be helpful, but not really necessary for me.
+
+### :-1: TZe-131 "12 mm Black on Transparent" Tape
+I've tried the "black on transparent" tape, but depending on the background color to stick it on, the label is much harder to locate and read compared to "black on white" tape. Might be helpful for usages where the label should be "less obvious", but I'm practically not using it.
+
+### Other
+
+TODO: Test heat shrink tube, strong adhesive, flexible, seal, colors, ...
 
 ---
 
@@ -135,7 +139,7 @@ Old TZ tapes were sold till somewhere around 2010 (or a bit later?) and are prac
 
 It seems Brother uses the cassette sense holes (described below) to block the specialized "PRO" tapes on many(?) printers. While these tape cassettes physically fit into all P-Touch printers, the printer just refuses to print. For example, something like the "Brother Label Tape Hack" seems to be needed to print HSe-xxx heat shrink tubes with an otherwise "unwilling" PT-P300BT: https://hackaday.io/project/190126-brother-label-tape-hack
 
-Even worse, there seems to be no clear rule for this. I was expecting that the TZe tapes can print on any P-Touch machines while the other "PRO" series (HSe, HGe, FLe, STe) only prints on a limited set of printers. As an example in contrast to that, the german "Brother P-touch Pro Tapes" pdf lists the seal/tamper evident TZe-SEx tapes to be incompatible with my PT-E110 printer.
+Even worse, there seems to be no clear rule for this. I was expecting that the TZe tapes can print on any P-Touch machines while the "PRO" series tapes (HSe, HGe, FLe, STe) only prints on a limited set of printers. As an example in contrast to that, the german "Brother P-touch Pro Tapes" pdf lists the seal/tamper evident TZe-SEx tapes to be incompatible with my PT-E110 printer.
 
 The "Tape Material" table further below lists the available tapes and wether it's considered as "PRO" or not.
 

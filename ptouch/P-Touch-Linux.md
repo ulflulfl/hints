@@ -4,11 +4,13 @@ For general infos about the P-Touch printers, see: [P-Touch Printers](./P-Touch-
 
 Brother doesn't support Linux for their P-Touch printers (at least not for the affordable printers I've looked at). However, they provide USB protocol descriptions on their US support website for some selected printers.
 
-**If you plan to use a P-Touch printer under Linux, inform yourself before a purchase as not all models are supported equally well.**
+> :warning: **Warning:** If you plan to use a P-Touch printer under Linux, inform yourself before a purchase as not all models are supported equally well.
 
 *Some remarks: I've collected the infos on this page in 2025. They may be wrong, incomplete or get outdated over time. Please raise a GitHub issue for corrections. The printed labels were created using "TZe compatible" tapes, the results with genuine Brother tapes may be different.*
 
 *The following lists some enthusiasts projects, the list is probably incomplete ...*
+
+---
 
 ### ptouch-print
 
@@ -30,6 +32,8 @@ Experiences:
 
 Git repository last updated (2025.03): 4 months ago
 
+---
+
 ### CUPS
 P-Touch printer driver for CUPS (Common Unix Printing System - https://de.wikipedia.org/wiki/Common_Unix_Printing_System).
 
@@ -45,6 +49,8 @@ Experiences:
 
 Git repository last updated (2025.03): **1 year ago**
 
+---
+
 ### PT-P300BT
 
 Command line tool for the PT-P300BT. Written in Pure Python.
@@ -57,6 +63,8 @@ Experiences:
 * TODO: Haven't tried it yet
 
 Git repository last updated (2025.03): 2 months ago
+
+---
 
 ### Pytouch Cube
 

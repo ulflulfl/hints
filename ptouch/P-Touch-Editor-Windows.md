@@ -4,9 +4,13 @@ Collected quirks of using my PT-P710BT printer under Windows ...
 
 *Some remarks: I've collected the infos on this page in 2025. They may be wrong, incomplete or get outdated over time. Please raise a GitHub issue for corrections. The printed labels were created using "TZe compatible" tapes, the results with genuine Brother tapes may be different.*
 
+For general infos about the P-Touch printers, see: [P-Touch Printers](./P-Touch-Printers.md)
+
 ![P-Touch Editor](./images/P-touch_Editor_Windows.png)
 
 *P-Touch Editor 6 while editing a cable flag*
+
+---
 
 ## Installation
 "Software/Document-Installer"
@@ -20,10 +24,11 @@ Collected quirks of using my PT-P710BT printer under Windows ...
 ## Connection
 The PT-P710BT can only be connected to the PC via micro USB.
 
-**A connection of the PT-P710BT over Bluetooth isn't possible.**
+> :rage: **A connection of the PT-P710BT over Bluetooth isn't possible.**
+
 The manual says "This label printer does not support Bluetooth connections for computers.". Well, I didn't know that my Android smartphone isn't a computer.
 
-*So each time I want to use the PT-P710BT under Windows, I have to look for the USB cable and connect it to the fiddly micro USB port - although both the PC and the printer have Bluetooth.*
+*So each time I want to use the PT-P710BT under Windows, I have to look for the USB cable and connect it to the fiddly micro USB port - although both the PC and the printer have Bluetooth* :-(
 
 ## Usage
 P-Touch Editor 6, version 6.6.0.0 (latest version in 2025)
@@ -40,9 +45,11 @@ Cons
 * Dialogs can't be closed by pressing the ESC key.
 * The "Home" dialog doesn't remember the last selected label and always starts at the top of a looong list.
 
-## Conclusion
-Having a long list of label designs to choose from (incl. electricians labels) and a print preview is nice.
+> :bulb: Use the "Electrical/Network" mode (File > Option... > Mode) if you want to get the full range of electricians label designs.
 
-The PT-P710BT can't be connected over Bluetooth, so each time I want to print, I need to deal with the fiddly micro USB port of the printer.
+## Conclusion
+:+1: Having a long list of label designs to choose from (incl. electricians labels) and a print preview is nice.
+
+:-1: The PT-P710BT can't be connected over Bluetooth, so each time I want to print, I need to deal with the fiddly micro USB port of the printer.
 
 Although the software feels a bit "uncomfortable" here and there, it does its job.
