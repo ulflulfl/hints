@@ -33,13 +33,13 @@ After a while, especially on thin cables, the normal laminated tape often will n
 
 ---
 
-## "E-series" Printers
+## "E-series" Printers or P-Touch Editor
 
 The E-series printers (PT-E100, PT-E110, PT-E300, PT-E550W, PT-E800T and PT-E850TKW) have special modes to print cable wraps and cable flags. You can also print special electrical and warning symbols. The PT-E300 and higher can print HSe heat shrink tubes, the PT-E550W and higher have a computer interface and further options.
 
 A list of E-series printers to compare can be found at: https://www.brother.com.sg/en/labellers/all-labellers?fr=electrical_automation
 
-TODO: Check if it's possible to use such electrician options with the Windows software on other printers?
+You can print these special electricians labels also with the Windows (and possibly macOS) "P-Touch Editor" software, especially in the "Electrical/Network" mode!
 
 ![Brother PT-E110](./images/PT-E110.jpg)
 *Brother PT-E110 in "cable flag" mode*
@@ -47,7 +47,7 @@ TODO: Check if it's possible to use such electrician options with the Windows so
 ### Cable Flag
 
 !["cable flag" printed by the PT-E110](./images/label_circuit_flag.jpg)
-*"cable flag" printed by the PT-E110*
+*"cable flag" printed by the PT-E110 on 12 mm tape*
 
 The PT-E550W manual suggests:
 
@@ -59,7 +59,7 @@ After a while, especially on thinner cables, the normal laminated tape (TZe-xxx)
 ### Cable Wrap
 
 !["cable wrap" printed by the PT-E110](./images/label_circuit_wrap.jpg)
-*"cable wrap" printed by the PT-E110*
+*"cable wrap" printed by the PT-E110 on 12 mm tape*
 
 The PT-E550W manual suggests:
 
@@ -71,6 +71,8 @@ May not work well with:
 
 * flat cables
 * longer texts on thin tapes
+
+When using 12 mm tape for cable wraps, the characters are getting pretty small. The "P-Touch Editor" software suggests 18 mm for cable wraps.
 
 ---
 

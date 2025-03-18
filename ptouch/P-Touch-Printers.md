@@ -9,9 +9,10 @@ I've started with a cheap handheld printer and gained experience over the years 
 *Some remarks: I've collected the infos on this page in 2025. They may be wrong, incomplete or get outdated over time. Please raise a GitHub issue for corrections. The printed labels were created using "TZe compatible" tapes, the results with genuine Brother tapes may be different.*
 
 For detailed infos about:
-* the (TZe, HSe, ...) tape cassettes, see: [P-Touch Tape Cassettes](./P-Touch-Tape-Cassettes.md)
-* how to mark cables, see [P-Touch Cable Markers](./P-Touch-Cable-Markers.md)
-* how to use P-Touch under Linux, see: [P-Touch Linux](./P-Touch-Linux.md)
+* [Tape Cassettes](./P-Touch-Tape-Cassettes.md) - the (TZe, HSe, ...) tape cassettes
+* [Cable Markers](./P-Touch-Cable-Markers.md) - how to mark cables
+* [Windows](./P-Touch-Editor-Windows.md) - some quirks of using P-Touch under Windows
+* [Linux](./P-Touch-Linux.md) - the options to use P-Touch under Linux
 
 ![My P-Touch printers](./images/printer_gallery.jpg)
 *My P-Touch printers (front row left to right: TCM 232288, PT-1000, PT-E110, rear: PT-P300BT, PT-P710BT)*
@@ -221,8 +222,8 @@ Computer connection:
 * Interfaces: Micro USB (USB 2.0 Full Speed) & Bluetooth (2.1+EDR class 2)
 * Software page (german): https://support.brother.com/g/b/downloadtop.aspx?c=de&lang=de&prod=p710bteuk
 * Desktop software:
-  * Windows: P-touch Editor, Printer Setting Tool, P-touch Update Software
-  * macOS: P-touch Editor, Printer Setting Tool, Transfer Express
+  * Windows (only USB): P-touch Editor, Printer Setting Tool, P-touch Update Software, see: [P-Touch Windows](./P-Touch-Editor-Windows.md)
+  * macOS (only USB): P-touch Editor, Printer Setting Tool, Transfer Express
   * Linux: [P-Touch Linux](./P-Touch-Linux.md)
 * Mobile Apps:
   * Android: Brother iPrint&Label, P-touch Design&Print 2
@@ -236,6 +237,7 @@ Experiences:
 * printing small graphics (e.g. QR-codes, Barcodes, ...) is nice to have for me
 * 24 mm wide tapes can be helpful from time to time (e.g. for graphics), 12 mm is enough in almost all cases
 * when standing upright, the printer is a bit wobbly
+* The micro USB port is fiddly (as usual), USB-C would be nice in 2025
 * newly purchased in 2025, so I have no "long term" experience
 
 ---
