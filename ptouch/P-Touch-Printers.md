@@ -11,7 +11,7 @@ I've started with a cheap handheld printer and gained experience over the years 
 For detailed infos about:
 * [Tape Cassettes](./P-Touch-Tape-Cassettes.md) - the (TZe, HSe, ...) tape cassettes
 * [Cable Markers](./P-Touch-Cable-Markers.md) - how to mark cables
-* [Windows](./P-Touch-Editor-Windows.md) - some quirks of using P-Touch under Windows
+* [Windows](./P-Touch-Windows.md) - some quirks of using P-Touch under Windows
 * [Linux](./P-Touch-Linux.md) - the options to use P-Touch under Linux
 
 ![My P-Touch printers](./images/printer_gallery.jpg)
@@ -210,7 +210,7 @@ Computer connection:
 * Interfaces: Micro USB (USB 2.0 Full Speed) & Bluetooth (2.1+EDR class 2)
 * Software page (german): https://support.brother.com/g/b/downloadtop.aspx?c=de&lang=de&prod=p710bteuk
 * Desktop software:
-  * Windows (only USB): P-touch Editor, Printer Setting Tool, P-touch Update Software, see: [P-Touch Windows](./P-Touch-Editor-Windows.md)
+  * Windows (only USB): P-touch Editor, Printer Setting Tool, P-touch Update Software, see: [P-Touch Windows](./P-Touch-Windows.md)
   * macOS (only USB): P-touch Editor, Printer Setting Tool, Transfer Express
   * Linux: [P-Touch Linux](./P-Touch-Linux.md)
 * Mobile Apps:
