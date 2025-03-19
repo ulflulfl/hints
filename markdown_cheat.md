@@ -4,6 +4,17 @@ The following lists the way I edit markdown. There are sometimes more than one w
 
 Markdown is depending on the renderer, the following should work at least with GitHub and Visual Studio Code (using the "Markdown Preview Enhanced" extension).
 
+## Table of Contents
+
+* [Sections](#sections)
+* [Text](#text)
+* [Lists](#lists)
+* [Blocks](#blocks)
+* [Tables](#tables)
+* [Links](#links)
+* [Images](#images)
+* [Other](#other)
+
 ## References
 
 The following is based on:
@@ -13,9 +24,10 @@ The following is based on:
 * https://www.markdownguide.org/hacks
 
 ---
----
 
-## Headings
+## Sections
+
+### Headings
 
 ```
 # Heading Level 1
@@ -37,7 +49,7 @@ The following is based on:
 
 > :bulb: **Tip:** Put blank lines before and after headings.
 
-## Horizontal Rules
+### Horizontal Rules
 
 ```
 ---
@@ -47,7 +59,9 @@ The following is based on:
 
 > :bulb: **Tip:** Put blank lines before and after horizontal rules.
 
-## Bold
+## Text
+
+### Bold
 
 ```
 **Bold Text**
@@ -55,7 +69,7 @@ The following is based on:
 
 **Bold Text**
 
-## Italic
+### Italic
 
 ```
 *Italicized text*
@@ -63,7 +77,7 @@ The following is based on:
 
 *Italicized Text*
 
-## Strikethrough
+### Strikethrough
 
 ```
 ~~This was wrong~~ This is right.
@@ -71,7 +85,7 @@ The following is based on:
 
 ~~This was wrong~~ This is right.
 
-## Subscript
+### ~~Subscript~~
 
 ```
 H\~2~O
@@ -81,7 +95,7 @@ H~2~O
 
 > :warning: **Warning:** Doesn't work with GitHub!
 
-## Superscript
+### ~~Superscript~~
 
 ```
 X\^2^
@@ -91,9 +105,9 @@ X^2^
 
 > :warning: **Warning:** Doesn't work with GitHub!
 
-## Color
+### Color
 
-### Font (HTML !)
+#### ~~Font (HTML)~~
 
 ```
 <font color="red">This text is red!</font>
@@ -103,7 +117,7 @@ X^2^
 
 > :warning: **Warning:** Doesn't work with GitHub!
 
-### CSS (HTML !)
+#### ~~CSS (HTML)~~
 
 ```
 <span style="color:black; background-color:white">black on white</span>
@@ -113,17 +127,9 @@ X^2^
 
 > :warning: **Warning:** Doesn't work with GitHub!
 
-## Blockquotes
+## Lists
 
-```
-> Block quote
-```
-
-> Block quote
-
-> :bulb: **Tip:** Put blank lines before and after block quotes.
-
-## Ordered List
+### Ordered List
 
 ```
 1. first
@@ -137,7 +143,7 @@ X^2^
 
 > :bulb: **Tip:** Use two spaces before subitems.
 
-## Unordered List
+### Unordered List
 
 ```
 * first
@@ -151,7 +157,7 @@ X^2^
 
 > :bulb: **Tip:** Use two spaces before subitems.
 
-## Task List
+### Task List
 
 ```
 - [x] Task 1
@@ -161,9 +167,21 @@ X^2^
 - [x] Task 1
 - [ ] Task 2
 
-## Code
+## Blocks
 
-### Inline e.g. for Commands
+### Blockquotes
+
+```
+> Block quote
+```
+
+> Block quote
+
+> :bulb: **Tip:** Put blank lines before and after block quotes.
+
+### Code
+
+#### Inline e.g. for Commands
 
 ```
 Enter ```ps -A``` to list all processes.
@@ -171,7 +189,7 @@ Enter ```ps -A``` to list all processes.
 
 Enter ```ps -A``` to list all processes.
 
-### Fenced Code Blocks
+#### Fenced Code Blocks
 
 > :bulb: **Tip:** Use three backticks.
 
@@ -185,7 +203,7 @@ This is my code block
 This is my code block
 ```
 
-### Syntax highlighting
+#### Syntax highlighting
 
 ````
 ```c
@@ -204,6 +222,32 @@ void main() {
 Languages: c, cpp, json, ...
 
 List of supported languages (but depends on renderer): https://github.com/jincheng9/markdown_supported_languages
+
+## Tables
+
+```
+| Title 1 | Title 2 |
+| --- | --- |
+| Cell 1 | Cell 2 |
+```
+
+| Title 1 | Title 2 |
+| --- | --- |
+| Cell 1 | Cell 2 |
+
+### Table Alignment
+
+```
+| Title 1         | Title 2        | Title 2          |
+| :---            |    :----:      |             ---: |
+| Left 1          | Mid 1          | Right 1          |
+| Text for left 2 | Text for mid 2 | Text for right 2 |
+```
+
+| Title 1         | Title 2        | Title 2          |
+| :---            |    :----:      |             ---: |
+| Left 1          | Mid 1          | Right 1          |
+| Text for left 2 | Text for mid 2 | Text for right 2 |
 
 ## Links
 
@@ -233,7 +277,7 @@ OR
 
 [Duck Duck Go](https://duckduckgo.com "This is my duck tooltip")
 
-### ~~Open Link in new tab (HTML !)~~
+### ~~Open Link in new tab (HTML)~~
 
 ```
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
@@ -269,7 +313,7 @@ OR
 ![Tape](/ptouch/images/cassette_side.jpg "Optional Tooltip")
 *Image with caption and (optional) tooltip*
 
-### Image resized (HTML !)
+### Image resized (HTML)
 
 ```
 <img src="/ptouch/images/cassette_side.jpg" width="200">
@@ -279,7 +323,7 @@ OR
 
 TODO: Add hints for image.drawio.svg
 
-## Emojis
+### Emojis
 
 List of emojis: https://gist.github.com/rxaviers/7360908
 
@@ -305,44 +349,20 @@ List of emojis: https://gist.github.com/rxaviers/7360908
 | :zzz: | `:zzz:` | Sleep |
 | :hourglass: | `:hourglass:` | Wait |
 
-## Tables
+### Admonitions
 
 ```
-| Title 1 | Title 2 |
-| --- | --- |
-| Cell 1 | Cell 2 |
+> :warning: **Warning:** This is a warning, red alert emergency
 ```
 
-| Title 1 | Title 2 |
-| --- | --- |
-| Cell 1 | Cell 2 |
+> :warning: **Warning:** This is a warning, red alert emergency
 
-### Table Alignment
+## Other
 
-```
-| Title 1         | Title 2        | Title 2          |
-| :---            |    :----:      |             ---: |
-| Left 1          | Mid 1          | Right 1          |
-| Text for left 2 | Text for mid 2 | Text for right 2 |
-```
-
-| Title 1         | Title 2        | Title 2          |
-| :---            |    :----:      |             ---: |
-| Left 1          | Mid 1          | Right 1          |
-| Text for left 2 | Text for mid 2 | Text for right 2 |
-
-## Footnotes
+### Footnotes
 
 See: https://www.markdownguide.org/extended-syntax/#footnotes
 
-## Admonitions
-
-```
-> :warning: **Warning:** This is a warning, red alert emergency
-```
-
-> :warning: **Warning:** This is a warning, red alert emergency
-
-## Character Escaping
+### Character Escaping
 
 See: https://www.markdownguide.org/basic-syntax/#escaping-characters
