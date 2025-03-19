@@ -233,13 +233,15 @@ OR
 
 [Duck Duck Go](https://duckduckgo.com "This is my duck tooltip")
 
-### Open Link in new tab (HTML !)
+### ~~Open Link in new tab (HTML !)~~
 
 ```
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
 ```
 
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+
+> :warning: **Warning:** Doesn't work with GitHub!
 
 ### Link to #headings on the same page
 
@@ -260,26 +262,12 @@ OR
 ## Images
 
 ```
-![Tape]\(/ptouch/images/cassette_side.jpg)
+![Tape]\(/ptouch/images/cassette_side.jpg "Optional Tooltip")
+*Image with caption and (optional) tooltip*
 ```
 
-OR with optional tooltip:
-
-```
-![Tape]\(/ptouch/images/cassette_side.jpg "Tape Tooltip")
-```
-
-![Tape](/ptouch/images/cassette_side.jpg "Tape Tooltip")
-
-### Image with caption
-
-```
-![Tape]\(/ptouch/images/cassette_side.jpg)
-*My caption*
-```
-
-![Tape](/ptouch/images/cassette_side.jpg)
-*My caption*
+![Tape](/ptouch/images/cassette_side.jpg "Optional Tooltip")
+*Image with caption and (optional) tooltip*
 
 ### Image resized (HTML !)
 
@@ -297,37 +285,22 @@ List of emojis: https://gist.github.com/rxaviers/7360908
 
 ```
 :thumbsup: Good or Pros
+:thumbsdown: Bad or Cons
+:question: Question
+:warning: Warning
+:bulb: Tip
+:memo: Note
 ```
 
 :thumbsup: Good or Pros
 
-```
 :thumbsdown: Bad or Cons
-```
-
-:thumbsdown: Bad or Cons
-
-```
-:question: Question
-```
 
 :question: Question
 
-```
-:warning: Warning
-```
-
 :warning: Warning
 
-```
 :bulb: Tip
-```
-
-:bulb: Tip
-
-```
-:memo: Note
-```
 
 :memo: Note
 
