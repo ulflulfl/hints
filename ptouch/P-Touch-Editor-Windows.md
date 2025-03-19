@@ -28,16 +28,16 @@ The PT-P710BT can only be connected to the PC via micro USB.
 
 The manual says "This label printer does not support Bluetooth connections for computers.". Well, I didn't know that my Android smartphone isn't a computer.
 
-*So each time I want to use the PT-P710BT under Windows, I have to look for the USB cable and connect it to the fiddly micro USB port - although both the PC and the printer have Bluetooth* :-(
+*So each time I want to use the PT-P710BT under Windows, I have to look for the USB cable and connect it to the fiddly micro USB port - although both the PC and the printer have Bluetooth* :worried:
 
 ## Usage
 P-Touch Editor 6, version 6.6.0.0 (latest version in 2025)
 
-Pros
+:+1: Pros:
 * A wide range of label designs are available (including electrical labels)
 * Compared with the standalone printers, having a print preview is nice
 
-Cons
+:-1: Cons:
 * Software is from 2022, so in 2025 no updates for about 3 years
 * The GUI has no "dark mode". Brother, we have 2025 now ...
 * When I've selected the "View" menu for the first time, the program simply freezed. Didn't happen again.

@@ -90,7 +90,7 @@ After many years of usage, the TCM printer mentioned above showed its age and th
 * Support page (german): https://www.brother.de/support/pt1000/
 * Tapes: 6-12 mm TZe (new) & TZ (old) tapes
 * Cutter: Manual (TC-5, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Warning: Barrel connector with uncommon polarity "positive outside"**)
 * Computer interface: None
 
 :+1: Pros:
@@ -128,7 +128,7 @@ General properties:
 * Support page (german): https://www.brother.de/support/pt-e110
 * Tapes: 3,5-12 mm TZe & HGe ("High-Grade") tapes (will not work with the much older TZ tapes)
 * Cutter: Manual (TC-4, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Warning: Barrel connector with uncommon polarity "positive outside"**)
 * Computer interface: None
 
 :+1: Pros:
@@ -166,7 +166,7 @@ General properties:
 * Support page (german): https://www.brother.de/support/ptp300bt
 * Tapes: 3,5-12 mm TZe tapes (will not work with the much older TZ tapes)
 * Cutter: Manual (TC-4, replaceable)
-* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Beware: Barrel connector with uncommon polarity "positive outside"**)
+* Power: 6xAAA or Brother AD-24ES (9V 1,6A, :warning: **Warning: Barrel connector with uncommon polarity "positive outside"**)
 
 Computer connection:
 
