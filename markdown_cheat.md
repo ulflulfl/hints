@@ -239,18 +239,28 @@ TODO: Add hints for image.drawio.svg
 
 List of emojis: https://gist.github.com/rxaviers/7360908
 
-> \:thumbsup\:
-> \:thumbsdown\:
-> \:question\:
-> \:warning\:
-> \:bulb\:
-> \:memo\:
+> `:thumbsup:`
 
 :thumbsup: Good / Pros
+
+> `:thumbsdown:`
+
 :thumbsdown: Bad / Cons
+
+> `:question:`
+
 :question: Question
+
+> `:warning:`
+
 :warning: Warning
+
+> `:bulb:`
+
 :bulb: Tip
+
+> `:memo:`
+
 :memo: Note
 
 ## Tables
@@ -281,7 +291,7 @@ See: https://www.markdownguide.org/extended-syntax/#footnotes
 
 ## Admonitions
 
-> \> \:warning: \*\*Warning:** This is a warning, red alert emergency
+> \> `:warning:` \*\*Warning:** This is a warning, red alert emergency
 
 > :warning: **Warning:** This is a warning, red alert emergency
 
