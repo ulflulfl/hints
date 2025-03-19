@@ -18,11 +18,15 @@ The following is based on:
 ## Headings
 
 > \# Heading Level 1
-> \#\# Heading Level 2
-> \#\#\# Heading Level 3
 
 # Heading Level 1
+
+> \#\# Heading Level 2
+
 ## Heading Level 2
+
+> \#\#\# Heading Level 3
+
 ### Heading Level 3
 
 > :bulb: **Tip:** Put blank lines before and after headings.
@@ -59,11 +63,15 @@ The following is based on:
 
 H~2~O
 
+> :warning: **Warning:** Doesn't work with GitHub!.
+
 ## Superscript
 
 > X\^2^
 
 X^2^
+
+> :warning: **Warning:** Doesn't work with GitHub!.
 
 ## Color
 
@@ -72,6 +80,8 @@ X^2^
 > \<font color="red">This text is red!\</font>
 
 <font color="red">This text is red!</font>
+
+> :warning: **Warning:** Doesn't work with GitHub!.
 
 ### CSS (HTML !)
 
@@ -229,12 +239,12 @@ TODO: Add hints for image.drawio.svg
 
 List of emojis: https://gist.github.com/rxaviers/7360908
 
-> \:thumbsup:
-> \:thumbsdown:
-> \:question:
-> \:warning:
-> \:bulb:
-> \:memo:
+> \:thumbsup\:
+> \:thumbsdown\:
+> \:question\:
+> \:warning\:
+> \:bulb\:
+> \:memo\:
 
 :thumbsup: Good / Pros
 :thumbsdown: Bad / Cons
