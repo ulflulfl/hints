@@ -2,7 +2,7 @@
 
 The following lists the way I edit markdown. There are sometimes more than one way in markdown, I'll list only the one I typically use.
 
-Markdown is depending on the renderer, the following should work at least with GitHub and Visual Studio Code (using the "Markdown Preview Enhanced" extension).
+Markdown is depending on the renderer, the following should work at least with GitHub repositories and Visual Studio Code (using the "Markdown Preview Enhanced" extension).
 
 ## Table of Contents
 
@@ -313,9 +313,9 @@ OR
 
 <img src="/ptouch/images/cassette_side.jpg" width="200">
 
-### Draw.io / diagrams.net
+### Draw.io
 
-Draw.io drawings in SVG format can be directly edited in Visual Studio Code with the "Draw.io Integration" extension and displayed in the git repo on GitHub.
+Draw.io / diagrams.net drawings in SVG format can be directly edited in Visual Studio Code with the "Draw.io Integration" extension and displayed in the git repo on GitHub.
 
 > :bulb: **Tip:** This enables a seamless drawing experience without exporting an intermediate png or such
 
