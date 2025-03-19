@@ -229,6 +229,7 @@ Computer connection:
 
 * when standing upright, the printer is a bit wobbly
 * The micro USB port is fiddly (as usual), USB-C would be nice in 2025
+* Bluetooth is not usable with Windows :rage:
 
 Purchased in 2025, so I have no "long term" experience
 
