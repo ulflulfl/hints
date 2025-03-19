@@ -2,7 +2,7 @@ Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help othe
 
 * Cheat sheets:
   * [Linux_Cheat.ods](Linux_Cheat.ods) - focused on command line tools and Debian (work in progress)
-  * [Markdown](markdown_cheat.md) - focused on usage with VS Code & GitHub (work in progress)
+  * [Markdown](markdown_cheat.md) - focused on usage with VS Code & GitHub
 
 * Brother P-Touch label printers:
   * [Printers](ptouch/P-Touch-Printers.md) - Choosing a printer, my experiences, tape identification, accessories, ...
