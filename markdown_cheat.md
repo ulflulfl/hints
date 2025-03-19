@@ -105,7 +105,7 @@ X^2^
 
 > :warning: **Warning:** Doesn't work with GitHub!
 
-### Color
+### ~~Color~~
 
 #### ~~Font (HTML)~~
 
@@ -264,28 +264,10 @@ https://duckduckgo.com
 OR
 
 ```
-[Duck Duck Go](https://duckduckgo.com)
+[Duck Duck Go](https://duckduckgo.com "Optional tooltip")
 ```
 
-[Duck Duck Go](https://duckduckgo.com)
-
-### Link with Tooltip
-
-```
-[Duck Duck Go](https://duckduckgo.com "This is my duck tooltip")
-```
-
-[Duck Duck Go](https://duckduckgo.com "This is my duck tooltip")
-
-### ~~Open Link in new tab (HTML)~~
-
-```
-<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
-```
-
-<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
-
-> :warning: **Warning:** Doesn't work with GitHub!
+[Duck Duck Go](https://duckduckgo.com "Optional tooltip")
 
 ### Link to #headings on the same page
 
@@ -302,6 +284,16 @@ OR
 ```
 
 [Text for README.md Link](README.md)
+
+### ~~Open Link in new tab (HTML)~~
+
+```
+<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+```
+
+<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+
+> :warning: **Warning:** Doesn't work with GitHub!
 
 ## Images
 
