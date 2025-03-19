@@ -283,26 +283,27 @@ TODO: Add hints for image.drawio.svg
 
 List of emojis: https://gist.github.com/rxaviers/7360908
 
-```
-:thumbsup: Good or Pros
-:thumbsdown: Bad or Cons
-:question: Question
-:warning: Warning
-:bulb: Tip
-:memo: Note
-```
-
-:thumbsup: Good or Pros
-
-:thumbsdown: Bad or Cons
-
-:question: Question
-
-:warning: Warning
-
-:bulb: Tip
-
-:memo: Note
+| Emoji | Code | Remark |
+| --- |--- |--- |
+| :thumbsup: | `:thumbsup:` | Good / Pros |
+| :thumbsdown: | `:thumbsdown:` | Bad / Cons |
+| :smile: | `:smile:` | Smile |
+| :wink: | `:wink:` | Wink |
+| :rage: | `:rage:` | Angry |
+| :worried: | `:worried:` | Worried |
+| :heart: | `:heart:` | Heart |
+| :star: | `:star:` | Star |
+| :question: | `:question:` | Question |
+| :exclamation: | `:exclamation:` | Exclamation |
+| :warning: | `:warning:` | Warning |
+| :bulb: | `:bulb:` | Tip |
+| :memo: | `:memo:` | Note |
+| :no_entry: | `:no_entry:` | No entry |
+| :construction: | `:construction:` | Under construction |
+| :x: | `:x:` | Not Done |
+| :heavy_check_mark: | `:heavy_check_mark:` | Ok / Check (there is no better emoji) |
+| :zzz: | `:zzz:` | Sleep |
+| :hourglass: | `:hourglass:` | Wait |
 
 ## Tables
 
