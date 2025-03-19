@@ -125,23 +125,9 @@ X^2^
 
 <span style="color:black; background-color:white">black on white</span>
 
-> :warning: **Warning:** Doesn't work with GitHub!
+> :warning: **Warning:** Works only in GitHub Pages, doesn't work with GitHub!
 
 ## Lists
-
-### Ordered List
-
-```
-1. first
-  1.1. subitem
-2. second
-```
-
-1. first
-1.1. subitem
-2. second
-
-> :bulb: **Tip:** Use two spaces before subitems.
 
 ### Unordered List
 
@@ -154,6 +140,20 @@ X^2^
 * first
   * subitem
 * second
+
+> :bulb: **Tip:** Use two spaces before subitems.
+
+### Ordered List
+
+```
+1. first
+  1.1. subitem
+2. second
+```
+
+1. first
+1.1. subitem
+2. second
 
 > :bulb: **Tip:** Use two spaces before subitems.
 
@@ -313,7 +313,19 @@ OR
 
 <img src="/ptouch/images/cassette_side.jpg" width="200">
 
-TODO: Add hints for image.drawio.svg
+### Draw.io / diagrams.net
+
+Draw.io drawings in SVG format can be directly edited in Visual Studio Code with the "Draw.io Integration" extension and displayed in the git repo on GitHub.
+
+> :bulb: **Tip:** This enables a seamless drawing experience without exporting an intermediate png or such
+
+```
+![Example](/example.drawio.svg "Example Draw.io drawing (in svg format)")
+```
+
+![Example](/example.drawio.svg "Example Draw.io drawing (in svg format)")
+
+> :memo: **Note:** Unfortunately, displaying the .svg in GitHub sometimes fails
 
 ### Emojis
 
