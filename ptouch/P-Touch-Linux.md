@@ -20,15 +20,12 @@ Command line tool from Dominik Radermacher to create simple text graphics and pr
 * git: https://git.familie-radermacher.ch/linux/ptouch-print.git/
 * Nice usage description: https://github.com/HenrikBengtsson/brother-ptouch-label-printer-on-linux
 
-The tool is written in C and uses libusb to directly talk to the printer. There are no pre-build packages so you need to compile it yourself.
-
 Supported printers:
 * List (search for ptdevs): https://git.familie-radermacher.ch/linux/ptouch-print.git/tree/src/libptouch.c
 * PT-P300BT: No
 * PT-P710BT: Yes
 
-Experiences:
-* TODO: Haven't tried it yet
+For Experiences, see: [ptouch-print](./P-Touch-Linux-ptouch-print.md)
 
 Git repository last updated (2025.03): 4 months ago
 

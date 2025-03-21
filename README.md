@@ -10,3 +10,4 @@ Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help othe
   * [Cable-Markers](ptouch/P-Touch-Cable-Markers.md) - "E-series" printers, special tapes
   * [Windows](ptouch/P-Touch-Windows.md) - some quirks of using P-Touch under Windows
   * [Linux](ptouch/P-Touch-Linux.md) - Linux applications and drivers (work in progress)
+    * [ptouch-print](ptouch/P-Touch-Linux-ptouch-print.md) - Linux command line tool
