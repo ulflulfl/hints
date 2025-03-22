@@ -17,7 +17,7 @@ Brother doesn't support Linux for their P-Touch printers (at least not for the a
 Command line tool from Dominik Radermacher to create simple text graphics and print them.
 
 * Project: https://dominic.familie-radermacher.ch/projekte/ptouch-print/
-* git: https://git.familie-radermacher.ch/linux/ptouch-print.git/
+* git repo: https://git.familie-radermacher.ch/linux/ptouch-print.git/
 * Nice usage description: https://github.com/HenrikBengtsson/brother-ptouch-label-printer-on-linux
 
 Supported printers:
@@ -34,7 +34,7 @@ Git repository last updated (2025.03): 4 months ago
 ### CUPS
 P-Touch printer driver for CUPS (Common Unix Printing System - https://de.wikipedia.org/wiki/Common_Unix_Printing_System).
 
-Project: https://github.com/philpem/printer-driver-ptouch/tree/master
+Project page & git repo: https://github.com/philpem/printer-driver-ptouch/tree/master
 
 Supported printers:
 * List: https://github.com/philpem/printer-driver-ptouch/tree/master/printer
@@ -52,7 +52,7 @@ Git repository last updated (2025.03): **1 year ago**
 
 Command line tool for the PT-P300BT. Written in Pure Python.
 
-Project: https://github.com/Ircama/PT-P300BT
+Project page & git repo: https://github.com/Ircama/PT-P300BT
 
 I couldn't easily find a list of supported printers, except for the obvious PT-P300BT.
 
@@ -67,7 +67,7 @@ Git repository last updated (2025.03): 2 months ago
 
 GUI label editor for Brother P-Touch. Python QT5 based.
 
-Project: https://github.com/piksel/pytouch-cube
+Project page & git repo: https://github.com/piksel/pytouch-cube
 
 I couldn't easily find a list of supported printers.
 
