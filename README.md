@@ -3,6 +3,7 @@ Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help othe
 * Cheat sheets:
   * [Linux_Cheat.ods](Linux_Cheat.ods) - focused on command line tools and Debian (work in progress)
   * [Markdown](markdown_cheat.md) - focused on usage with VS Code & GitHub
+  * [Python]python.md - focused on differences to C#/Java
 
 * git server:
   * [Forge](git-server/forge.md) - why I've chosen gitea as my git server (aka: forge)
