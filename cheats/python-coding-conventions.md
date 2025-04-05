@@ -1,8 +1,13 @@
 ## Coding Conventions
 
-**:warning: Warning: The following is a big mess ...**
+Links:
 
-https://peps.python.org/pep-0008/
+* "PEP 8 – Style Guide for Python Code" https://peps.python.org/pep-0008/ or https://pep8.org/
+* "PEP 257 – Docstring Conventions" https://peps.python.org/pep-0257/
+* "Google Python Style Guide" https://google.github.io/styleguide/pyguide.html
+* "Code Style" from "The Hitchhiker’s Guide to Python!" https://docs.python-guide.org/writing/style/
+
+**:warning: Warning: The following is a big mess ...**
 
 ### :heavy_check_mark: Tabs or Spaces
 
