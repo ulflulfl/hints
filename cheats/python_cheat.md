@@ -42,18 +42,51 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
 
 ## Data Types
 
+### Types and Casting
+
+```
+x = "3"
+y = 3
+z = 3.0
+
+x = str(3)
+y = int(3)
+z = float(3)
+
+print(type(x))
+```
+
+### Global
+
+```
+def func():
+  global a
+  a = "fantastic"
+
+func()
+print("Global: " + a)
+```
+
 ### Strings
+
+Various methods: https://www.w3schools.com/python/python_strings_methods.asp
 
 #### Creation
 
 ```
 r"C:\abc"
 f"text with {variable}"
+f"text with {variable:.2f}"		# two decimals of a float
 fr"C:\text\{variable}"
 ```
 
 * r: text ignoring escape chars (especially Windows paths)
 * f: format variable content into the string
+
+Links:
+
+* Escape chars: https://www.w3schools.com/python/python_strings_escape.asp
+* Formatting: https://www.w3schools.com/python/python_string_formatting.asp
 
 #### Checks
 
@@ -72,6 +105,22 @@ if myString.startswith(prefix):
 ```
 for line in textBlob:
 	...
+
+text[1:3] # including 1, excluding 3
+text[:4]  # from start, excluding 4
+text[4:]  # including 4 to the end
+
+text = "a, b"
+print(a.split(",")) 	# returns ['a', ' b']
+```
+
+#### Changes
+
+```
+text.upper()
+text.lower()
+text.strip()	# remove leading and trailing spaces
+text.replace("a", "b")
 ```
 
 ### Lists (Arrays)
@@ -122,7 +171,7 @@ https://www.w3schools.com/python/python_dictionaries.asp
 ### if
 
 ```
-if a==b and not c==d or e==f:
+if a==b and not c==d or e!=f:
 	print(a)
 elif not a==b:
 	print(b)
@@ -134,7 +183,7 @@ else:
 
 ```
 match variable:
-	case "a":
+	case "a" | "b":
 		# do a
 	case _:
 		# default
@@ -227,6 +276,8 @@ with open("infile.txt", 'r', encoding='utf8') as infile:
 			outfile.write("pre-" + line + "\n")
 ```
 
+File modes: https://www.w3schools.com/python/python_file_handling.asp
+
 ---
 
 ## System
@@ -309,6 +360,8 @@ urllib.request.urlopen("url").read()
 ## Open Office (pandas)
 
 Use pandas for handling of data in LibreOffice .ods files.
+
+https://www.w3schools.com/python/pandas/default.asp
 
 ### Install pandas
 
