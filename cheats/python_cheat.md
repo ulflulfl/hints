@@ -62,8 +62,8 @@ print(type(x))
 
 ```
 def func():
-  global a
-  a = "fantastic"
+    global a
+    a = "fantastic"
 
 func()
 print("Global: " + a)
@@ -96,17 +96,17 @@ Contains and StartsWith:
 
 ```
 if "string" in myString:
-	...
+    ...
 
 if myString.startswith(prefix):
-	...
+    ...
 ```
 
 #### Split
 
 ```
 for line in textBlob:
-	...
+    ...
 
 text[1:3] # including 1, excluding 3
 text[:4]  # from start, excluding 4
@@ -129,19 +129,19 @@ text.replace("a", "b")
 
 ```
 someNames = [
-	"Alice",
-	"Bob",
+    "Alice",
+    "Bob",
 ]
 
 ListInList = [
-	["Alice", "Merton"],
-	["Bob", "Hope"],
+    ["Alice", "Merton"],
+    ["Bob", "Hope"],
 ]
 
 alice = someNames[0]
 n = len(someNames)
 for name in someNames:
-  print(name)
+    print(name)
 someNames.pop(0) # removes first item
 someNames.remove("Alice")
 ```
@@ -153,9 +153,9 @@ Key:Value store.
 
 ```
 person = {
-  "first": "Alice",
-  "name": "Merton",
-  "year": 1993
+    "first": "Alice",
+    "name": "Merton",
+    "year": 1993
 }
 person = dict(first = "Alice", name = "Merton", year = 1993)
 
@@ -174,21 +174,21 @@ https://www.w3schools.com/python/python_dictionaries.asp
 
 ```
 if a==b and not c==d or e!=f:
-	print(a)
+    print(a)
 elif not a==b:
-	print(b)
+    print(b)
 else:
-	print(c)
+    print(c)
 ```
 
 ### switch (match/case)
 
 ```
 match variable:
-	case "a" | "b":
-		# do a
-	case _:
-		# default
+    case "a" | "b":
+        # do a
+    case _:
+        # default
 ```
 
 ### return
@@ -201,14 +201,14 @@ return a, b, c
 
 ```
 try:
-	# action
+    # action
 except PermissionError:
-	# reaction
+    # reaction
 except OSError as error:
-	if error.errno == 41:
-		# more ...
+    if error.errno == 41:
+        # more ...
 except Exception as error:
-	# more ...
+    # more ...
 ```
 
 ### Terminate Program
@@ -258,7 +258,7 @@ os.chdir(dir)
 
 ```
 for dirsAndFiles in os.listdir(dir):
-	...
+    ...
 ```
 
 ### Manipulate
@@ -273,9 +273,9 @@ os.rmdir(dir)
 
 ```
 with open("infile.txt", 'r', encoding='utf8') as infile:
-	with open("outfile.txt", 'w', encoding='utf8') as outfile:
-		while line := infile.readline():
-			outfile.write("pre-" + line + "\n")
+    with open("outfile.txt", 'w', encoding='utf8') as outfile:
+        while line := infile.readline():
+            outfile.write("pre-" + line + "\n")
 ```
 
 File modes: https://www.w3schools.com/python/python_file_handling.asp
@@ -380,7 +380,7 @@ import pandas as pd
 
 df = pd.read_excel("test.ods", "sheet", engine="odf")
 for index, row in df.iterrows():
-	contentFromCell = str(row["Column Header"])
+    contentFromCell = str(row["Column Header"])
 ```
 
 ---
@@ -410,7 +410,7 @@ command = "choco outdated"
 result = subprocess.run(command.split(), capture_output=True, text=True)
 returned = result.returncode
 for line in result.stdout.splitlines():
-	...
+    ...
 ```
 
 #### Output to File
@@ -418,7 +418,7 @@ for line in result.stdout.splitlines():
 ```
 command = f"choco list -lo -r -y"
 with open("output.txt", 'w', encoding='utf8') as outfile:
-	subprocess.run(command, stdout=outfile, stderr=subprocess.STDOUT)
+    subprocess.run(command, stdout=outfile, stderr=subprocess.STDOUT)
 ```
 
 ### psutils
@@ -437,8 +437,8 @@ TODO: use venv
 
 ```
 for proc in psutil.process_iter(attrs=['pid', 'name']):
-	if proc.info['name'] == "explorer.exe":
-		...
+    if proc.info['name'] == "explorer.exe":
+        ...
 ```
 
 #### Terminate Process
