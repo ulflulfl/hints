@@ -7,6 +7,8 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
 ## Table of Contents
 
 * **[Data Types](#data-types)**
+  * [Types and Casting](#types-and-casting)
+  * [Global](#global)
   * [Strings](#strings)
   * [Lists](#lists-arrays)
   * [Dictionaries](#dictionaries)
