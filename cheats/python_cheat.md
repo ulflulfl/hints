@@ -82,7 +82,7 @@ f"text with {variable:.2f}"		# two decimals of a float
 fr"C:\text\{variable}"
 ```
 
-* r: text ignoring escape chars (especially Windows paths)
+* r: text ignoring escape chars (especially for Windows paths)
 * f: format variable content into the string
 
 Links:
@@ -106,7 +106,7 @@ if myString.startswith(prefix):
 
 ```
 for line in textBlob:
-    ...
+    print(line)
 
 text[1:3] # including 1, excluding 3
 text[:4]  # from start, excluding 4
@@ -128,22 +128,22 @@ text.replace("a", "b")
 ### Lists (Arrays)
 
 ```
-someNames = [
+some_names = [
     "Alice",
     "Bob",
 ]
 
-ListInList = [
+list_in_list = [
     ["Alice", "Merton"],
     ["Bob", "Hope"],
 ]
 
-alice = someNames[0]
-n = len(someNames)
-for name in someNames:
+alice = some_names[0]
+n = len(some_names)
+for name in some_names:
     print(name)
-someNames.pop(0) # removes first item
-someNames.remove("Alice")
+some_names.pop(0) # removes first item
+some_names.remove("Alice")
 ```
 Other list/array actions: https://www.w3schools.com/python/python_arrays.asp
 
@@ -288,7 +288,7 @@ File modes: https://www.w3schools.com/python/python_file_handling.asp
 
 ```
 import os
-USERPROFILE = os.environ['USERPROFILE']
+userprofile = os.environ['USERPROFILE']
 ```
 
 ### machine name
@@ -318,7 +318,7 @@ print("\rtext", end='', flush=True)
 
 * \r "carriage return" will point cursor at the start of the console line
 * end='' avoids a newline (console won't jump to the next line)
-* flush=True prints out immediately on (Windows) console (end='' causes to not be shown immediately)
+* flush=True prints out immediately on (Windows) console (as end='' causes the output to be buffered and not shown immediately)
 
 ### Console Input
 
@@ -341,11 +341,13 @@ system("title " + title)
 https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal
 
 ```
-CEND    = '\33[0m'
-CRED    = '\33[31m'
-CGREEN  = '\33[32m'
-print(CGREEN + "green" + CEND)
+CRED = '\33[31m'
+CGREEN = '\33[32m'
+CBLUE = '\33[34m'
+CEND = '\33[0m'
 print(CRED + "red" + CEND)
+print(CGREEN + "green" + CEND)
+print(CBLUE + "blue" + CEND)
 ```
 
 ---
@@ -361,7 +363,7 @@ urllib.request.urlopen("url").read()
 
 ## Open Office (pandas)
 
-Use pandas for handling of data in LibreOffice .ods files.
+Use pandas for handling of data e.g. in LibreOffice .ods files.
 
 https://www.w3schools.com/python/pandas/default.asp
 
@@ -379,6 +381,7 @@ TODO: use venv
 import pandas as pd
 
 df = pd.read_excel("test.ods", "sheet", engine="odf")
+print(df)
 for index, row in df.iterrows():
     contentFromCell = str(row["Column Header"])
 ```
@@ -388,8 +391,6 @@ for index, row in df.iterrows():
 ## External Processes
 
 ### Process Execution
-
-See psutil below for process manipulation ...
 
 ```
 import subprocess
