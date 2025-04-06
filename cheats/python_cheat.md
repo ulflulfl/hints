@@ -39,7 +39,8 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
   * [Install pandas](#install-pandas)
   * [Iterate Rows](#iterate-rows)
 * **[External Processes](#external-processes)**
-  * [Process Execution](#process-execution)
+  * [Process Execution with Wait](#process-execution-with-wait)
+  * [Process Execution without Wait](#process-execution-without-wait)
   * [Process Manipulation (psutils)](#process-manipulation-psutils)
 
 ---
@@ -422,7 +423,9 @@ for index, row in df.iterrows():
 
 ## External Processes
 
-### Process Execution
+### Process Execution with Wait
+
+subprocess.run will wait until the child process has finished.
 
 ```
 import subprocess
@@ -453,6 +456,16 @@ command = f"choco list -lo -r -y"
 with open("output.txt", 'w', encoding='utf8') as outfile:
     subprocess.run(command, stdout=outfile, stderr=subprocess.STDOUT)
 ```
+
+### Process Execution without Wait
+
+The DETACHED_PROCESS flag is Windows specific! There seems to be no easy platform independent way to do this :thumbsdown:
+
+```
+subprocess.Popen(start, creationflags=subprocess.DETACHED_PROCESS)
+```
+
+> :warning: Warning: If running in a debugger, closing the debug session will stop all processes created here!
 
 ### Process Manipulation (psutils)
 
