@@ -284,7 +284,14 @@ File modes: https://www.w3schools.com/python/python_file_handling.asp
 
 ## System
 
-### Read environment
+### Sleep
+
+```
+import time
+time.sleep(100/1000)    # sleep 100 ms
+```
+
+### Read environment variable
 
 ```
 import os
@@ -325,7 +332,14 @@ print("\rtext", end='', flush=True)
 Wait for "enter key" pressed:
 
 ```
-input()
+text = input("Enter a text:")
+```
+
+Wait for single "any key" press (Windows only, there seems to be no easy portable way)
+
+```
+import msvcrt
+selected = msvcrt.getch().decode('ASCII')
 ```
 
 ### Set Console Title
