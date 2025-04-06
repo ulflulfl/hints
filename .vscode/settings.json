@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "CBLUE",
         "CEND",
         "CGREEN",
         "chdir",
@@ -9,6 +10,7 @@
         "elif",
         "errno",
         "fontsize",
+        "getch",
         "getcwd",
         "getsize",
         "infile",
@@ -17,6 +19,7 @@
         "iterrows",
         "listdir",
         "makedirs",
+        "msvcrt",
         "psutil",
         "ptdevs",
         "ptouch",

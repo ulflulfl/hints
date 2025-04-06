@@ -24,7 +24,8 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
   * [Manipulate](#manipulate)
   * [Input / Output](#input--output)
 * **[System](#system)**
-  * [Read environment](#read-environment)
+  * [Sleep](#sleep)
+  * [Read environment variable](#read-environment)
   * [Machine name](#machine-name)
   * [Check for Running Debugger](#check-for-running-debugger)
 * **[Console](#console)**
@@ -38,7 +39,7 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
   * [Iterate Rows](#iterate-rows)
 * **[External Processes](#external-processes)**
   * [Process Execution](#process-execution)
-  * [psutils](#psutils)
+  * [Process Manipulation (psutils)](#process-manipulation-psutils)
 
 ---
 
@@ -436,7 +437,7 @@ with open("output.txt", 'w', encoding='utf8') as outfile:
     subprocess.run(command, stdout=outfile, stderr=subprocess.STDOUT)
 ```
 
-### psutils
+### Process Manipulation (psutils)
 
 Platform independent process handling.
 
