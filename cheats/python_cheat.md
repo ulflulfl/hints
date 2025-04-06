@@ -25,8 +25,8 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
   * [Input / Output](#input--output)
 * **[System](#system)**
   * [Sleep](#sleep)
-  * [Read environment variable](#read-environment)
-  * [Machine name](#machine-name)
+  * [Environment Variables](#environment-variables)
+  * [Machine Name](#machine-name)
   * [Check for Running Debugger](#check-for-running-debugger)
 * **[Console](#console)**
   * [Console Output](#console-output)
@@ -292,21 +292,21 @@ import time
 time.sleep(100/1000)    # sleep 100 ms
 ```
 
-### Read environment variable
+### Environment Variables
 
 ```
 import os
 userprofile = os.environ['USERPROFILE']
 ```
 
-### machine name
+### Machine Name
 
 ```
 import platform
 name = platform.node()
 ```
 
-### Check for running debugger
+### Check for Running Debugger
 
 Not perfect, will probably only work with VS Code:
 
