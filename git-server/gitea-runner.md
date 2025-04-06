@@ -2,11 +2,12 @@
 
 The following is the simplest way I could find to add the execution of actions/workflows to my [Gitea home server](./gitea.md). It uses docker compose to setup a Gitea act_runner container.
 
-Looking at the Gitea documentation, setting up a runner for Gitea actions seems pretty complex.
+> :bulb: **Tip:** Looking at the Gitea documentation, setting up a runner for Gitea actions seems pretty complex and confusing. It's really not that complicated if you know docker compose a bit ...
 
-> :bulb: **Tip:** It's really not that complicated if you know docker compose a bit ...
+*The text was written in 2025 and will probably get outdated over time.*
 
 ![Gitea Action](gitea-action.png)
+
 *Gitea Actions run on my home server* :thumbsup:
 
 ## Table of Contents
@@ -17,8 +18,6 @@ Looking at the Gitea documentation, setting up a runner for Gitea actions seems 
 * [Start the Container](#start-the-container)
 * [Demo Workflow](#demo-workflow)
 * [FIY: Act and Runner Container](#fiy-act-and-runner-container)
-
-*The text was written in 2025 and will probably get outdated over time.*
 
 ---
 
@@ -58,7 +57,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
 
-Example taken (slightly modified) from: https://docs.gitea.com/usage/actions/act-runner
+The content is based on https://docs.gitea.com/usage/actions/act-runner  and slightly modified.
 
 **You'll need to adjust two settings:**
 
@@ -67,14 +66,14 @@ Example taken (slightly modified) from: https://docs.gitea.com/usage/actions/act
 
 I like to place the containers config in a folder beside the docker-compose.yml, so the volume names start with: ./runner/...
 
-> :warning: Don't start the container yet! If you would start the compose right now, you'll get a directory ./runner/config.yaml which is NOT what's needed.
+> :warning: **Warning:** Don't start the container yet! If you would start the compose right now, you'll get a directory ./runner/config.yaml which is NOT what's needed.
 
 ## config.yaml
 
 Create the runner configuration file:
 
 * touch ./runner/config.yaml
-* Copy the example content from https://gitea.com/gitea/act_runner/src/branch/main/internal/pkg/config/config.example.yaml unchanged into the config.yaml file:
+* Copy the example content into the config.yaml file:
 
 ```
 # Example configuration file, it's safe to copy this as the default config file without any modification.
@@ -180,6 +179,8 @@ host:
   workdir_parent:
 ```
 
+Example taken (unchanged) from: https://gitea.com/gitea/act_runner/src/branch/main/internal/pkg/config/config.example.yaml
+
 ---
 
 ## Start the Container
@@ -192,7 +193,7 @@ After a minute or so, the new runner should appear in Gitea at: http://myserver:
 
 ![Gitea Runner](gitea-runner.png)
 
-:thumbsup::thumbsup::thumbsup:
+*The runner appearing at my Gitea server* :thumbsup::thumbsup::thumbsup:
 
 If you have problems, take a look at the container logs (e.g. by using portainer).
 
@@ -228,19 +229,21 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```
 
-Example (unchanged) from the "Use Actions" section at: https://docs.gitea.com/usage/actions/quickstart/
+Example taken (unchanged) from the "Use Actions" section at: https://docs.gitea.com/usage/actions/quickstart/
 
 Don't forget to commit and push this.
 
 > :bulb: **Tip:** This workflow is now triggered each time you push something into the repository.
 
-To test the action, do a change in the repo and push it.
+To test the action, do another change in the repo and push it.
 
 In the repositories Actions, some activity should show up now ...
 
 ![Gitea Action](gitea-action.png)
 
-:thumbsup::thumbsup::thumbsup:
+*First Action done on my Gitea server* :thumbsup::thumbsup::thumbsup:
+
+
 
 The first time the workflow is started, the ```ubuntu-latest``` container image is pulled which takes a minute or two. The following actions reuses the image and are therefore much faster.
 
@@ -268,4 +271,4 @@ So what's happening, as far as I understand it ...
 * act_runner deletes the runner container again
 * act_runner tells Gitea: "job done"and waits for new jobs
 
-Beside ```ubuntu-latest``` there are different runner image variants of Ubuntu available, but no Debian or other distributions. The available runner images can be found at: https://gitea.com/gitea/runner-images and can be configured in the config.yaml.
+Beside the ```ubuntu-latest``` image there are different runner variants of Ubuntu available, but no Debian or other distributions. The available runner images can be found at: https://gitea.com/gitea/runner-images and can be used when added to the config.yaml and used in the workflow yaml.
