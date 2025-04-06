@@ -25,6 +25,7 @@ See: [Coding Conventions](python-coding-conventions.md) for a big mess ...
   * [Input / Output](#input--output)
 * **[System](#system)**
   * [Sleep](#sleep)
+  * [Command Line Parser](#command-line-parser)
   * [Environment Variables](#environment-variables)
   * [Machine Name](#machine-name)
   * [Check for Running Debugger](#check-for-running-debugger)
@@ -290,6 +291,22 @@ File modes: https://www.w3schools.com/python/python_file_handling.asp
 ```
 import time
 time.sleep(100/1000)    # sleep 100 ms
+```
+
+### Command Line Parser
+
+Parsing command line arguments:
+
+```
+import argparse
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--input', '-i', help='input file', required="True")
+    parser.add_argument('--verbose', '-v', help='show verbose', action='store_true', dest="show_verbose")
+
+    parser = parser.parse_args(sys.argv[1:])
+    if parser.show_verbose:
+        print(parser.input)
 ```
 
 ### Environment Variables
