@@ -8,6 +8,7 @@ Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help othe
 * git server:
   * [Forge](git-server/forge.md) - why I've chosen gitea as my git server (aka: forge)
   * [Gitea](git-server/gitea.md) - hints to setup gitea in a container
+  * [Gitea Runner](git-server/gitea-runner.md) - hints to setup a gitea action runner
   * [Readme for Programs](git-server/readme-template-program.md) - Readme markdown template for program repositories
 
 * Brother P-Touch label printers:
