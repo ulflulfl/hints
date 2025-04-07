@@ -6,7 +6,7 @@ The following is the simplest way I could find to add the execution of actions/w
 
 *The text was written in 2025 and will probably get outdated over time.*
 
-![Gitea Action](gitea-action.png)
+![Gitea Action](images/gitea-action.png)
 
 *Gitea Actions run on my home server* :thumbsup:
 
@@ -191,7 +191,7 @@ docker compose up -d
 
 After a minute or so, the new runner should appear in Gitea at: http://myserver:3001/-/admin/actions/runners
 
-![Gitea Runner](gitea-runner.png)
+![Gitea Runner](images/gitea-runner.png)
 
 *The runner appearing at my Gitea server* :thumbsup::thumbsup::thumbsup:
 
@@ -239,7 +239,7 @@ To test the action, do another change in the repo and push it.
 
 In the repositories Actions, some activity should show up now ...
 
-![Gitea Action](gitea-action.png)
+![Gitea Action](images/gitea-action.png)
 
 *First Action done on my Gitea server* :thumbsup::thumbsup::thumbsup:
 

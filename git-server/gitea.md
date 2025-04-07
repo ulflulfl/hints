@@ -4,7 +4,7 @@
 
 The [forge](forge.md) page lists why I've chosen gitea.
 
-![gitea](gitea.png)
+![gitea](images/gitea.png)
 
 *Remarks: My switch from git with plain ssh to gitea is fresh. I have no long term experiences (smooth updates?) with gitea while I write this in 2025.*
 
@@ -92,7 +92,7 @@ As I have only about 10 repos to migrate, doing these steps manually is ok for m
 
 Create a new repo (named e.g. abc) with the gitea Web-UI, in my case at: http://server.lan:3001/
 
-![gitea new repo](gitea-new-repo.png)
+![gitea new repo](images/gitea-new-repo.png)
 
 As my gitea instance runs on server.lan port 3001, I can access the new repo "abc" at:
 
