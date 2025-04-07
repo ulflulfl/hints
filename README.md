@@ -5,11 +5,7 @@ Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help othe
   * [Markdown](cheats/markdown_cheat.md) - focused on usage with VS Code & GitHub
   * [Python](cheats/python_cheat.md) - focused on differences to C#/Java
 
-* git server:
-  * [Forge](git-server/forge.md) - why I've chosen gitea as my git server (aka: forge)
-  * [Gitea](git-server/gitea.md) - hints to setup gitea in a container
-  * [Gitea Runner](git-server/gitea-runner.md) - hints to setup a gitea action runner
-  * [Readme for Programs](git-server/readme-template-program.md) - Readme markdown template for program repositories
+* [git server](git-server/Readme.md): My self hosted git server
 
 * Brother P-Touch label printers:
   * [Printers](ptouch/P-Touch-Printers.md) - Choosing a printer, my experiences, tape identification, accessories, ...
