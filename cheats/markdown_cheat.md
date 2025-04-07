@@ -298,20 +298,20 @@ OR
 ## Images
 
 ```
-![Tape]\(/ptouch/images/cassette_side.jpg "Optional Tooltip")
+![Tape](./images/cassette_side.jpg "Optional Tooltip")
 *Image with caption and (optional) tooltip*
 ```
 
-![Tape](/ptouch/images/cassette_side.jpg "Optional Tooltip")
+![Tape](./images/cassette_side.jpg "Optional Tooltip")
 *Image with caption and (optional) tooltip*
 
 ### Image resized (HTML)
 
 ```
-<img src="/ptouch/images/cassette_side.jpg" width="200">
+<img src="./images/cassette_side.jpg" width="200">
 ```
 
-<img src="/ptouch/images/cassette_side.jpg" width="200">
+<img src="./images/cassette_side.jpg" width="200">
 
 ### Draw.io
 
@@ -320,10 +320,10 @@ Draw.io / diagrams.net drawings in SVG format can be directly edited in Visual S
 > :bulb: **Tip:** This enables a seamless drawing experience without exporting an intermediate png or such
 
 ```
-![Example](/example.drawio.svg "Example Draw.io drawing (in svg format)")
+![Example](./images/example.drawio.svg "Example Draw.io drawing (in svg format)")
 ```
 
-![Example](/example.drawio.svg "Example Draw.io drawing (in svg format)")
+![Example](./images/example.drawio.svg "Example Draw.io drawing (in svg format)")
 
 > :memo: **Note:** Unfortunately, displaying the .svg in GitHub sometimes fails
 
