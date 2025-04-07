@@ -280,10 +280,10 @@ OR
 ### Link to a different "local" page / file
 
 ```
-[Text for README.md Link](README.md)
+[Text for python_cheat.md Link](python_cheat.md)
 ```
 
-[Text for README.md Link](README.md)
+[Text for python_cheat.md Link](python_cheat.md)
 
 ### ~~Open Link in new tab (HTML)~~
 
