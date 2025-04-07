@@ -1,4 +1,4 @@
-![md-linkcheck](https://github.com/ulflulfl/gdecoder/actions/workflows/md-linkcheck.yaml/badge.svg)
+![md-linkcheck](https://github.com/ulflulfl/hints/actions/workflows/md-linkcheck.yaml/badge.svg)
 
 Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help others ...
 
