@@ -1,0 +1,11 @@
+# Custom Dictionary Words
+Blockquotes
+gmock
+gtest
+mypkg
+pytest
+shardulm
+Strg
+Strikethrough
+thumbsdown
+wayou
