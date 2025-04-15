@@ -216,9 +216,9 @@ Infos about tape use for electricians at: [P-Touch Cable Markers](./P-Touch-Cabl
 * 7xx - green
 * 8xx - gold
 * 9xx - silver
-* Bxx - flourescent orange
-* Cxx - flourescent yellow
-* Dxx - flourescent green (used by "compatibles" but not by Brother)
+* Bxx - fluorescent orange
+* Cxx - fluorescent yellow
+* Dxx - fluorescent green (used by "compatibles" but not by Brother)
 ...
 
 There are more colors available including glittering metal or pastel.
