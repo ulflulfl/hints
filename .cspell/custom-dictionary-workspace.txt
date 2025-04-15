@@ -1,8 +1,1 @@
 # Custom Dictionary Words
-gmock
-gtest
-mypkg
-pytest
-shardulm
-Strg
-wayou

@@ -51,7 +51,14 @@
         "writepng",
         "Blockquotes",
         "thumbsdown",
-        "Strikethrough"
+        "Strikethrough",
+        "gmock",
+        "gtest",
+        "mypkg",
+        "pytest",
+        "shardulm",
+        "Strg",
+        "wayou"
     ],
     "ignoreWords": [],
     "import": []
