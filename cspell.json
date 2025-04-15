@@ -48,7 +48,10 @@
         "urlopen",
         "USERPROFILE",
         "venv",
-        "writepng"
+        "writepng",
+        "Blockquotes",
+        "thumbsdown",
+        "Strikethrough"
     ],
     "ignoreWords": [],
     "import": []
