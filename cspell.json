@@ -65,7 +65,8 @@
         "USERPROFILE",
         "venv",
         "wayou",
-        "writepng"
+        "writepng",
+        "gitea"
     ],
     "ignoreWords": [],
     "import": []
