@@ -1,6 +1,6 @@
 # hints
 
-![md-linkcheck](https://github.com/ulflulfl/hints/actions/workflows/md-linkcheck.yaml/badge.svg)
+![md-linkcheck](https://github.com/ulflulfl/hints/actions/workflows/md-linkcheck.yaml/badge.svg) ![Spell check](https://github.com/ulflulfl/hints/actions/workflows/spellcheck.yaml/badge.svg)
 
 Various hints (e.g. to use SW, HW, ...). Collected for myself, but may help others ...
 
