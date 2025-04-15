@@ -1,3 +1,4 @@
+# https://github.com/streetsidesoftware/cspell-action
 name: 'Check spelling'
 on: # rebuild any PRs and main branch changes
   pull_request:
@@ -9,3 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: streetsidesoftware/cspell-action@v6
+        with:
+          incremental_files_only: true
