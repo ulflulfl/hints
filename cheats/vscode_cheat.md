@@ -9,6 +9,10 @@ https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ## General Editing
 
+### Keyboard Shortcuts
+
+* Ctrl+P: Find File
+
 ### Hint: Quick View (single click) vs. Open (double click)
 
 * If a file is opened by a single click, the file is opened and the tab name is in italics. If another file is opened with a single click, the editor replaces the content!
